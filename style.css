@@ -1,0 +1,70 @@
+.redCircle{
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.greenCircle{
+    background:green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.blueCircle{
+    background: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+ max-width: 80%;
+  margin: 0 auto;
+
+  padding: 10px 0;
+}
+.mainContainer{
+  justify-content: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px;
+  border-width:0px ;
+  border-style:solid;
+  border-color:#287EC7;
+
+}
+
+.containerTwo{
+ display: flex;
+ justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+
+ 
+ 
+  padding: 10px 0;
+}
+
+.title{
+    color:whitesmoke;
+    background-color: #287EC7;
+
+}
+
+@media only screen and (max-width: 469px)  {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+}.footer{
+    color:whitesmoke;
+    font-size: 10px;
+    justify-content: center;
+    background-color: #287EC7;
+}
